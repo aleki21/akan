@@ -16,31 +16,30 @@
       </div>
 
   <div class="conatiner">
-
+    <div class="column">
       <div class="card">
-        <div class="card body">
-          <p>This is a web applicaton that helps you get your birth ghananian name depending on the day of the week you were born. </p>
-        </div>
+            <div class="card body">
+              <p>This is a web applicaton that helps you get your birth ghananian name depending on the day of the week you were born. </p>
+            </div>
+  </div>
+  <div class="box">
+        <p>Enter your birth date on the spaces provided below:</p>
+  </div>
         <div class="card body">
           <form action="/action_page.php">
-            <div class="form-group">
-              <label for="day">DD</label>
-              <input type="day" class="form-control" id="day">
-            </div>
-          <div class="form-group">
-            <label for="month">MM</label>
-            <input type="month" class="form-control" id="month">
-          </div>
-          <div class="formgroup">
-            <label for="year">YY</label>
-            <input type="year" class="form-control" id="year">
-
-            <button type="submit" class="btn btn-default">Submit</button>
-          </div>
-        </form>
-
+  <label for="birthday">Birthday:</label>
+  <input type="date" id="birthday" name="birthday">
+  <input type="submit" value="Submit">
+</form>
+<form action="/action_page.php">
+  <input type="checkbox" id="gender1" name="male" value="male">
+  <label for="male">male</label><br>
+  <input type="checkbox" id="gender2" name="female" value="female">
+  <label for="female"> female</label><br>
+  <input type="submit" value="Submit">
+</form>
       </div>
-
+      </div>
     </div>
   </div>
     </div>
