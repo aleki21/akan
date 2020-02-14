@@ -1,0 +1,19 @@
+
+body {
+  font-family: serif;
+  background-image: url("/home/alex/Documents/akan/images/print.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-weight: normal;
+  background-blend-mode: overlay;
+}
+.test-box {
+  border: 2px solid red;
+  padding: 6px;
+  margin: 20px;
+  background-color: yellow;
+}
+.naming p {
+background-color: coral;
+}
