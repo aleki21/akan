@@ -1,0 +1,32 @@
+font-weight: normal;
+ background-blend-mode: overlay;
+}
+.jumbotron {
+ background-color: inherit;
+}
+
+h1 {
+ font-size: 40px;
+ font-weight: bolder;
+ text-align: center;
+  float: right;
+}
+.jumbotron {
+ background-color: inherit;
+ text-align: justify;
+}
+body {
+  background-image: url("/home/alex/Documents/akan/images/child.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  font-weight:  normal;
+  background-blend-mode: overlay;
+}
+.well{
+  font-style: italic;
+  font-size: 35px;
+  color: #FBFCFC  ;
+  font-weight: bold;
+  text-align: right;
+}

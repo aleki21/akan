@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Akan Name Generator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="css/styles.css" rel= "stylesheet" type="text/css" media="all">
+    <script src="js/scripts.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+
+    <form action="#">
+      <div class="container">
+        <div class="jumbotron">
+      <h1><strong>AKAN NAME GENERATOR</strong></h1>
+      <p class="green">Please fill in the form below to know your Akan Name: <br>
+      </div>
+        <!-- </div> -->
+          <div class="well">
+            <div>
+                <label class="great"><b>Your name:</b></label>
+                <input type="text" placeholder="Enter your name" name="name" id="name" required>
+                </div>
+                  <br>
+                <div>
+                    <label class="b"><b>Year Born:</b></label>
+                    <input type="number" placeholder="YYYY" name="year" id="year" min="1" minlength="4" maxlength="4" step="1" required>
+                </div>
+                  <br>
+                <div>
+                    <label class="nice"><b>Month Born:</b></label>
+                    <input type="number" placeholder="MM" name="month" id="month" min="1950/1/1" max="12" step="1" required>
+                </div>
+                  <br>
+                <div>
+                    <label class="pro"><b>Date your Born:</b></label>
+                    <input type="number" placeholder="DD" name="date" id="date" min="1950/1/1" max="31" step="1"required>
+                </div>
+                  <br>
+                <div>
+                    <p1> <b> Your Gender:</b></p1>
+                    <label for="male">Male</label>
+                    <input id ="male" name="gender" type="radio" value="male">
+                    <label for="female">Female</label>
+                    <input id = "female" name="gender" type="radio" value="female">
+                </div> <br>
+                <div>
+                  &nbsp &nbsp &nbsp &nbsp &nbsp
+                <button class="btn-success" type="ENTER" onclick="getName();return false;" value="submit">ENTER</button>
+                &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                    <button class="btn-danger" type="submit" onclick="refreshPage()">Refresh </button>
+        
+      </div>
+      <div>
+              <p id="post"></p>
+      </div>
+    </form>
+    </div>
+  </body>
+</html>

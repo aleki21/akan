@@ -1,0 +1,21 @@
+# Akan naming
+#### Find your Ghanaian birth name, 15-02-2020
+#### By **{alex}**
+## Description
+This application lets you find your birth name by calculating the day of the week you were born and tells you you compatible name based on your gender
+## Setup/Installation Requirements
+* enter your name
+* enter your year of birth
+* enter your date of birth
+*select your gender
+* then submit
+This web application run on javascript an html
+## Known Bugs
+There are no known bugs
+## Technologies Used
+{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}
+## Support and contact details
+{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}
+### License
+*MIT*
+Copyright (c) 2020 **ALEX KIMUTAI**
