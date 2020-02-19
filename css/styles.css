@@ -16,12 +16,12 @@ h1 {
  text-align: justify;
 }
 body {
-  background-image: url("/home/alex/Documents/akan/images/child.jpg");
+  background-image: url("https://www.demilked.com/magazine/wp-content/uploads/2018/06/5b27b67061ffb-baroque-portraits-afro-art-creativesoul-photography-15-5a0bf48ef07ae__880.jpg");
   background-repeat: no-repeat;
   background-size:cover;
   background-attachment: fixed;
-  font-weight:  normal;
-  background-blend-mode: overlay;
+  /* font-weight:  normal; */
+  /* background-blend-mode: overlay; */
 }
 .well{
   font-style: italic;
